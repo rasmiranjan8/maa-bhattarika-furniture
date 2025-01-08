@@ -16,77 +16,76 @@ const App = () => {
   const items = [
     {
       name: "Bed",
-      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
+      image: "https://maa-bhattarika-furnuture.netlify.app/bed.webp",
       description: "Luxurious wooden beds for your comfort.",
     },
     {
-      name: "Door",
-      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
+      name: "Door and Window",
+      image: "https://maa-bhattarika-furnuture.netlify.app/door.jpg",
       description: "Durable and stylish wooden doors.",
     },
     {
-      name: "Window",
-      image: "/image7.jpg",
-      description: "Beautiful wooden windows to enhance your home.",
-    },
-    {
       name: "Dressing Table",
-      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
+      image: "https://maa-bhattarika-furnuture.netlify.app/dressing_table.webp",
       description: "Elegant dressing tables for your bedroom.",
     },
     {
       name: "Dining Table",
-      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
+      image: "https://maa-bhattarika-furnuture.netlify.app/dining.jpg",
       description: "Perfect dining tables for your family meals.",
+    },
+    {
+      name: "Table and Chair",
+      image: "https://maa-bhattarika-furnuture.netlify.app/table_chair.jpeg",
+      description: "Stylish tables and chairs for every room.",
     },
   ];
 
   const itemDetails = {
     Bed: [
       {
-        name: "King Size Bed",
         image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       },
-      { name: "Queen Size Bed", image: "/image2.png" },
+      { image: "/image2.png" },
     ],
     Door: [
       {
-        name: "Classic Door",
         image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       },
       {
-        name: "Modern Door",
         image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       },
     ],
     "Dressing Table": [
       {
-        name: "Vintage Dressing Table",
         image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       },
       {
-        name: "Modern Dressing Table",
         image: "/images/modern_dressing_table.jpg",
       },
     ],
     "Dining Table": [
       {
-        name: "Wooden Dining Table",
         image: "/images/wooden_dining_table.jpg",
       },
       {
-        name: "Glass Dining Table",
         image: "/images/glass_dining_table.jpg",
       },
     ],
     Window: [
       {
-        name: "Sliding Window",
         image: "/images/sliding_window.jpg",
       },
       {
-        name: "Classic Window",
         image: "/images/classic_window.jpg",
+      },
+    ],
+    "Table and Chair": [
+      {
+        image: "/images/table_chair1.jpg",
+      },
+      {
+        image: "/images/table_chair2.jpg",
       },
     ],
   };
@@ -126,14 +125,7 @@ const App = () => {
               </>
             }
           />
-          <Route
-            path="/contact"
-            element={
-              <>
-                <ContactSection />
-              </>
-            }
-          />
+          <Route path="/contact" element={<ContactSection />} />
           <Route
             path="/product/:productName"
             element={<ProductDetails itemDetails={itemDetails} />}
@@ -167,7 +159,6 @@ const ProductDetails = ({ itemDetails }) => {
   const sendMessegeWp = (item) => {
     const phoneNumber = "+919937822101";
     const message = `Hello, I am interested in the item:
-- Name: ${item.name}
 - Image URL: ${item.image}`;
     const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
       message
@@ -191,12 +182,10 @@ const ProductDetails = ({ itemDetails }) => {
           <div key={index} className="border rounded-lg p-4 shadow-md bg-white">
             <img
               src={item.image}
-              alt={item.name}
+              alt="Product"
               className="w-full h-48 object-cover rounded-md mb-4 cursor-pointer"
               onClick={() => openModal(item.image)}
             />
-            <h2 className="text-lg font-semibold">{item.name}</h2>
-            {/* Removed the price section */}
             <button
               onClick={() => sendMessegeWp(item)}
               className="w-full mt-4 px-4 py-2 bg-green-500 text-white font-medium rounded-lg shadow-md hover:bg-green-600"

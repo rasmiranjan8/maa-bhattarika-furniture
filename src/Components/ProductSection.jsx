@@ -11,7 +11,6 @@ const ProductSection = ({ items, itemDetails }) => {
   const sendMessegeWp = (item) => {
     const phoneNumber = "+919937822101"; // WhatsApp number
     const message = `Hello, I am interested in the item:
-- Name: ${item.name}
 - Description: ${item.description}
 - Image URL: ${item.image}`;
     const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
@@ -73,15 +72,12 @@ const ProductSection = ({ items, itemDetails }) => {
                   {/* Image to trigger modal */}
                   <img
                     src={detail.image}
-                    alt={detail.name}
+                    alt="Product"
                     className="h-48 w-full object-cover cursor-pointer"
                     onClick={() => openModal(detail.image)}
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    {detail.name}
-                  </h3>
                   <p className="text-gray-500">{detail.description}</p>
                   {/* WhatsApp Button */}
                   <button
