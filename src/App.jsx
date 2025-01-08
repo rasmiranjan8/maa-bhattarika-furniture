@@ -16,7 +16,7 @@ const App = () => {
   const items = [
     {
       name: "Bed",
-      image: "/image5.jpg",
+      image: "/https://maa-bhattarika-furnuture.netlify.app/image1.png",
       description: "Luxurious wooden beds for your comfort.",
     },
     {
@@ -31,32 +31,38 @@ const App = () => {
     },
     {
       name: "Dressing Table",
-      image: "/images/dressing_table.jpg",
+      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       description: "Elegant dressing tables for your bedroom.",
     },
     {
       name: "Dining Table",
-      image: "/images/dining_table.jpg",
+      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       description: "Perfect dining tables for your family meals.",
     },
   ];
 
   const itemDetails = {
     Bed: [
-      { name: "King Size Bed", image: "/image1.png" },
+      {
+        name: "King Size Bed",
+        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
+      },
       { name: "Queen Size Bed", image: "/image2.png" },
     ],
     Door: [
       {
         name: "Classic Door",
-        image: "/images/classic_door.jpg",
+        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       },
-      { name: "Modern Door", image: "/images/modern_door.jpg" },
+      {
+        name: "Modern Door",
+        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
+      },
     ],
     "Dressing Table": [
       {
         name: "Vintage Dressing Table",
-        image: "/images/vintage_dressing_table.jpg",
+        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       },
       {
         name: "Modern Dressing Table",
