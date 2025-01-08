@@ -16,12 +16,12 @@ const App = () => {
   const items = [
     {
       name: "Bed",
-      image: "/https://maa-bhattarika-furnuture.netlify.app/image1.png",
+      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       description: "Luxurious wooden beds for your comfort.",
     },
     {
       name: "Door",
-      image: "/image6.jpg",
+      image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
       description: "Durable and stylish wooden doors.",
     },
     {
