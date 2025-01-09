@@ -39,6 +39,16 @@ const App = () => {
       image: "https://maa-bhattarika-furnuture.netlify.app/table_chair.jpeg",
       description: "Stylish tables and chairs for every room.",
     },
+    {
+      name: "Sofa",
+      image: "https://maa-bhattarika-furnuture.netlify.app/sofa.jpeg",
+      description: "Comfortable sofas for your relaxation.",
+    },
+    {
+      name: "Diwan",
+      image: "https://maa-bhattarika-furnuture.netlify.app/deewan.jpg",
+      description: "Stylish diwan for your living room",
+    },
   ];
 
   const itemDetails = {
@@ -154,6 +164,33 @@ const App = () => {
       { image: "https://maa-bhattarika-furnuture.netlify.app/chair6.jpg" },
       { image: "https://maa-bhattarika-furnuture.netlify.app/chair7.jpg" },
       { image: "https://maa-bhattarika-furnuture.netlify.app/chair8.jpg" },
+    ],
+    Sofa: [
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa1.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa2.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa3.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa4.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa5.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa6.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa7.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa8.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa9.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa10.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa11.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa12.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa13.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/sofa14.jpg" },
+    ],
+    Diwan: [
+      {
+        image: "https://maa-bhattarika-furnuture.netlify.app/diwan1.jpg",
+      },
+      {
+        image: "https://maa-bhattarika-furnuture.netlify.app/diwan2.jpg",
+      },
+      {
+        image: "https://maa-bhattarika-furnuture.netlify.app/diwan3.jpg",
+      },
     ],
   };
 
