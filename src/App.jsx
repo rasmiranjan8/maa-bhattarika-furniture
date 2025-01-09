@@ -43,50 +43,117 @@ const App = () => {
 
   const itemDetails = {
     Bed: [
-      {
-        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
-      },
-      { image: "/image2.png" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed1.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed2.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed3.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed4.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed5.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed6.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed7.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed8.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed9.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed10.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed11.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed12.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed13.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed14.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed15.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed16.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed17.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed18.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed19.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed20.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed21.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed22.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed23.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed24.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed25.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed26.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed27.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed28.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed29.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed30.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed31.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed32.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed33.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed34.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed35.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed36.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed37.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed38.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed39.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/bed40.jpg" },
     ],
-    Door: [
-      {
-        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
-      },
-      {
-        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
-      },
+    "Door and Window": [
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door1.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door2.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door3.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door4.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door5.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door6.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door7.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door8.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door9.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door10.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door11.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door12.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door13.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door14.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door15.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door16.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/door17.jpg" },
     ],
     "Dressing Table": [
-      {
-        image: "https://maa-bhattarika-furnuture.netlify.app/image1.png",
-      },
-      {
-        image: "/images/modern_dressing_table.jpg",
-      },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing1.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing2.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing3.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing4.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing5.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing6.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing7.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing8.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing9.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing10.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing11.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing12.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing13.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing14.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dressing15.jpg" },
     ],
     "Dining Table": [
-      {
-        image: "/images/wooden_dining_table.jpg",
-      },
-      {
-        image: "/images/glass_dining_table.jpg",
-      },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining1.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining2.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining3.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining4.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining5.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining6.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining7.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining8.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining9.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining10.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining11.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining12.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/dining13.jpg" },
     ],
     Window: [
-      {
-        image: "/images/sliding_window.jpg",
-      },
-      {
-        image: "/images/classic_window.jpg",
-      },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window1.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window2.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window3.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window4.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window5.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window6.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window7.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/window8.jpg" },
     ],
     "Table and Chair": [
-      {
-        image: "/images/table_chair1.jpg",
-      },
-      {
-        image: "/images/table_chair2.jpg",
-      },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair1.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair2.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair3.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair4.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair5.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair6.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair7.jpg" },
+      { image: "https://maa-bhattarika-furnuture.netlify.app/chair8.jpg" },
     ],
   };
 
@@ -183,7 +250,7 @@ const ProductDetails = ({ itemDetails }) => {
             <img
               src={item.image}
               alt="Product"
-              className="w-full h-48 object-cover rounded-md mb-4 cursor-pointer"
+              className="w-full h-48 object-contain bg-white rounded-md mb-4 cursor-pointer"
               onClick={() => openModal(item.image)}
             />
             <button
@@ -195,6 +262,7 @@ const ProductDetails = ({ itemDetails }) => {
           </div>
         ))}
       </div>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
